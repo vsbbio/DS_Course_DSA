@@ -8,7 +8,7 @@ bash chmod a+x Miniconda3-latest-Linux-x86_64.sh
 bash ./Miniconda3-latest-Linux-x86_64.sh
 
 ###Installing Jupyter
-bash conda instal jupyter
+bash conda install jupyter
 jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser
 
 

@@ -9,7 +9,18 @@ bash ./Miniconda3-latest-Linux-x86_64.sh
 
 ###Installing Jupyter
 bash conda install jupyter
-jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser
+bash jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser
+
+###Creating an alias to Jupyter
+bash cd ~/
+bash nano .bash_aliases
+
+"" edit the file and write down:" 
+bash alias jupyter='jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser'
+
+^X #to exit
+Y #save the file
+Enter #back terminal
 
 
 

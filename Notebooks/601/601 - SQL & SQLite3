@@ -1,0 +1,53 @@
+#SQL Language
+##SQL = Structured Query Language
+
+##DML - Data Manipulation Language (Development)
+
+    ##SELECT #Search data
+        ###"SELECT * FROM PRODUTOS WHERE valor > 60.0"
+        ###sql_select = 'select * from cursos'
+    
+    UPDATE
+        ###"UPDATE produtos SET valor = 70.00 WHERE valor = 80.0"
+    
+    DELETE
+        ###"DELETE FROM produtos WHERE valor = 60.0"
+    
+    INSERT
+        ###sql_insert = 'insert into cursos values (?, ?, ?)'
+    
+
+##DDL - Data Definition Language (Support)
+
+    CREATE #Defintion an object (table, index)
+        #CREATE TABLE IF NOT EXISTS
+        #AUTOINCREMENT NOT NULL
+        ###sql_create = 'create table cursos' '(id integer primary key, ''titulo varchar(100), ''categoria varchar(140))'
+    
+    ALTER 
+        #Change an object
+    DROP
+        #Eliminate an object
+
+##DCL - Data Control Language (Support and Development)
+
+    GRANT 
+        #Grant privileges
+    REVOKE
+        #Revoke privileges
+ 
+ 
+#Library sqlite3 ("import sqlite3")
+    
+    #METHODS
+        10 - sqlite3.connect('DBname') ####Connecting in some DB - Attrib. this to an object
+        11 - objectname.cursor() ####Allow read the DB - Attrib. this to an object
+        12 - cursorname.execute(sql command) ####Use sql commands 
+        13 - connectioname.commit() #Save manipulation/definition
+        14 - cursorname.fetchall() ####Return the data inside the DB
+
+
+
+
+
+

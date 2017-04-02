@@ -1,0 +1,30 @@
+#FUNCTIONS
+
+Structure: def fuctionname(arg1, arg2, *name): 
+    <code>
+
+* is used to define a infinite number of parameter inside the function
+
+
+#LAMBDA
+Structure:  lambda arg: arg**2
+            or
+            
+            anyName = lambda arg: function with arg
+
+Call the lambda function:
+
+anyName(arg)
+
+##Lambda functions are called functions in-line as well, because they are simples instruction
+
+
+#METHODS
+Methods are functions executable with dot notation, like:
+
+list.append
+list.count
+tupla.count
+
+(...end)
+

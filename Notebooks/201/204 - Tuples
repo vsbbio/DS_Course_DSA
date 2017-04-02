@@ -1,0 +1,3 @@
+Structure: listname = (value, value2 ...)
+
+Tuples are immutable objects;

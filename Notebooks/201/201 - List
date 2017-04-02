@@ -1,0 +1,13 @@
+Structure  = listname = [value, value2 ...]
+
+    del somelist[index number] #####Delete elements of list with del fuction 
+    
+Built-in-fuctions:
+
+     len(): len("bau") = 3    
+     max()
+     min()
+     variable.append("element") ####Add elements to a list DOT NOTATION
+     variable.extend("[element]") ####Add one or more elements in a list DOT NOTATION
+     variable.insert[index, "element"] ####Add a element in a specific position in a list DOT NOTATION
+     variable.count("element") ####Count a specific element in a list DOT NOTATION

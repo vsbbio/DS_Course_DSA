@@ -1,0 +1,25 @@
+#Class is the essence of an object;
+#In Python everything is an Objects and they are represented by attributes (qualities) and methods (actions);
+
+structure:
+
+class ClassName():
+    def __init__(self, atr1, atr2): 
+        ##########################give attributes to class
+        self.attribute01 = atr1
+        self.attribute02 = atr2
+        
+    def functionName(): 
+        #########################define methods to class
+        print('My first method!')
+        
+    (..end..)
+    
+Functions to work with Class:
+
+hasattr(OBj, "Attribute")           ###############check if the attribute has value
+setattr(OBj, "Attribute", "Value")  ######set the value
+getattr(OBj, "Attribute")           ###############get value
+delattr(OBj, "Attribute")           ###############delete value
+
+(...end)

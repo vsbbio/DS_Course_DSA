@@ -1,0 +1,8 @@
+Structure: dicname = {keyword: value, keyword2: value2 ...}
+
+Some methods:
+
+    dictname.clear: ####Clean all elements in a dictionarie
+    dictname.keys ####Show all keys
+    dictname.values ####Show all values
+    dictname1.update(dictname2): ####Add a dict to other dict

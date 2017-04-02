@@ -1,0 +1,11 @@
+String is immutable. Therefore, string cannot be change after its definition;
+
+
+Built-in-fuctions:
+
+     Put "variable name" plus "." (dot) and press "tab" to show all options of built-in-fuctions, here are some fuctions:
+          variable.upper()
+          variable.lower()
+          variable.split()
+          
+          (e.g.) len(): len("bau") = 3

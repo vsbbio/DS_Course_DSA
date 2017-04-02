@@ -1,0 +1,8 @@
+
+open("filename", "flag") ####Open a file
+     flag: "r" = read; "w" = write; "a" = append
+     
+variablename.read() = ####Read the cotent
+variablename.tell() = ####Count all character
+variablename.write("content") = ####Rewriter the file
+%%writefile filename = ####Write a file direct from jupyter

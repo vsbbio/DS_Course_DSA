@@ -1,0 +1,32 @@
+#Database NoSQL are non-relationals, distributed, and horizontally scalable datebases;
+
+10 - Graph databases
+    Neo4j
+    FlockDB
+    GraphDB
+    ArangoDb
+    
+11 - Documento databases
+    MongoDB
+    CouchDB
+    RavenDB
+    Terrastore
+    
+12 - Key-value Stores
+    Oracle NoSQL DB
+    MemcacheDB
+    Redis
+    Voldemort
+    
+13 - Column family stores
+    HBase
+    Cassandra
+    Hypertable
+    Accumulo
+
+
+
+
+    
+
+
